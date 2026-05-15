@@ -10,7 +10,7 @@ const app= express()
 dotenv.config()
 connectDb()
 app.use(cors({
-  origin:['http://localhost:5173','https://full-stack-blog-app-evn4.vercel.app/'],
+  origin:['http://localhost:5173','https://full-stack-blog-app-evn4.vercel.app'],
   credentials:true
 }))
 app.use(express.json())
